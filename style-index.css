@@ -27,8 +27,9 @@ header{
   text-align: center;
 }
 .next{
-  position: relative;
-  top: 1rem;
+  position: absolute;
+  top: 6rem;
+  right:15%;
 }
 .gameselect{
   background-color: white;
@@ -39,7 +40,7 @@ header{
   display: table;
   width: 100%;
   line-height: 3rem;
-  border-bottom: 1px solid #fcca72;
+  border-bottom: 1px solid #fccf86;
 }
 .easy,
 .guess,
@@ -74,4 +75,17 @@ header{
 }
 .current{
   background-color: #69d1e9;
+}
+
+/* text-color */
+.text{
+  font-weight: bold;
+  color: white;
+}
+.grey{
+  color: #aaaaaa;
+}
+.organe{
+  color: #fcca72;
+  font-size: 1.5rem;
 }
