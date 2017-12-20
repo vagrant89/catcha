@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  background-color: #f0f0f0;
+}
+header{
+  background-color: #29bde0;
+  height: 4rem;
+}
+.topbtn{
+  position: relative;
+  top: 2rem;
+  left: 0.7rem;
+}
+.lastgame{
+  border: 1px solid #e8e8e8;
+  height: 3rem;
+  background-color: white;
+  width: 80%;
+  margin: 1rem 10% 1rem 10%;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+}
+.text{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.next{
+  position: relative;
+  top: 1rem;
+}
+.gameselect{
+  background-color: white;
+  width: 80%;
+  margin: 1rem 10% 1rem 10%;
+}
+.game{
+  display: table;
+  width: 100%;
+  line-height: 3rem;
+  border-bottom: 1px solid #fcca72;
+}
+.easy,
+.guess,
+.idiot{
+  display: table;
+  width: 80%;
+  line-height: 4.5rem;
+  margin: 1rem 10% 0 10%;
+}
+.mode{
+  background-color: #69d1e9;
+}
+.players{
+  text-align: center;
+  margin-top: 1rem;
+}
+.nextmode{
+  position:relative;
+  top: -13rem;
+  left: 90%;
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  background-color: #f0f0f0;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  display: inline-block;
+}
+.pagination{
+  text-align: center;
+}
+.current{
+  background-color: #69d1e9;
+}
