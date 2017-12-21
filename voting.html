@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=divice-width maximum-scale=1.0">
     <title>voting</title>
     <link rel="stylesheet" href="style-voting.css">
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <header>
@@ -17,11 +18,10 @@
         <div class="text-banner">
           发言讨论结束，大家请投票
         </div>
-        <span class="music">333333</span>
-        <audio id="audio">
-	         <source src="/assets_tutorials/media/Loreena_Mckennitt_Snow_56bit.mp3" type="audio/mpeg">
-	            Your browser does not support the audio tag.
-        </audio>
+        <button class="music" onclick="a();">播放/暂停</button>
+        <audio src="bgm\financial-freedom.mp3" preload id="music">
+       </audio>
+
       </div>
       <div class="text">
         点击得票数最多人的头像
