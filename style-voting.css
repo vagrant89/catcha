@@ -64,7 +64,7 @@ main{
 .block{
   width: 20%;
   height: 20vw;
-  margin: 0 0 3rem 10%;
+  margin: 0 0 8vw 10%;
   float: left;
 }
 .cube{
@@ -96,7 +96,7 @@ main{
   /* display: inline-block; */
   display: block;
   float: left;
-  margin:0.5rem 2.5%;
+  margin:3% 2.5%;
 }
 footer{
   position: fixed;
