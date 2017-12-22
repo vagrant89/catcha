@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  background-color: #29bde0;
+}
+header{
+  width: 80%;
+  text-align: center;
+  position: fixed;
+  background-color: #29bde0;
+  border-bottom: 1px solid #42c5e4;
+  padding: 1rem 10% 0.5rem 10%;
+}
+.lt-header{
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  background: url(images/result_03.png) no-repeat;
+  background-size: 2rem;
+}
+.rt-header{
+  width: 2rem;
+  height: 2rem;
+  float: right;
+  background: url(images/result_05.png) no-repeat;
+  background-size: 2rem;
+  /* display: inline-block; */
+}
+.text-header{
+  color: white;
+  /* height: 3rem; */
+  /* line-height: 3rem; */
+}
+main{
+  padding-top: 4rem;
+}
+span{
+  display: block;
+}
+.icon{
+  width:40%;
+  height:25vw;
+  background-image: url(images/result_10.png);
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin:0rem 30%;
+}
+.result{
+  padding: 0.5rem 10%;
+}
+.days{
+  padding: 0.5rem 10%;
+  background-color: white;
+  margin: 0;
+  border-bottom: 1px solid #f6f6f6;
+}
+p{
+  margin: 0;
+  line-height: 2rem;
+  display: inline-block;
+  color: #bdbdbd;
+}
+.time{
+  position: relative;
+  float: right;
+  color: #dedede;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 4rem;
+  width: 100%;
+  background-color: rgba(41, 189, 224, 0.6);
+}
+.again{
+  color: white;
+  background-color: #f66f6f;
+  width: 30%;
+  height: 3rem;
+  margin: 0.5rem 5% 0.5rem 15%;
+  border-radius: 5px;
+  text-align: center;
+  float: left;
+  line-height: 3rem;
+}
+.share{
+  color: white;
+  background-color: #f66f6f;
+  width: 30%;
+  height: 3rem;
+  margin: 0.5rem 14% 0.5rem 5%;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 3rem;
+  float: right;
+}
+.orange{
+  color: #ffc865;
+  font-weight: bold;
+}
+table{
+  margin-top: 1rem;
+  width: 100%;
+  color: white;
+}
+.justify{
+  text-align: justify;
+  text-align-last:justify;
+}
