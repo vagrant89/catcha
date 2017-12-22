@@ -9,19 +9,28 @@ header{
   background-color: #29bde0;
 }
 .lt-header{
-  position: relative;
-  top: 1.2rem;
-  left: -40%;
+  float: left;
+  width: 39px; height: 40px;
+  background-position: -82px -132px;
+  margin: 0.7rem 0 0 1rem;
+  transform: scale(0.6);
 }
 .rt-header{
-  position: relative;
-  top: -1.2rem;
-  left: 40%;
+  float: right;
+  width: 36px; height: 36px;
+  background-position: -141px -132px;
+  margin: 0.7rem 0 0 1rem;
+  transform: scale(0.6);
+}
+.text-header{
+  height: 3rem;
+  line-height: 4rem;
+  color: white;
 }
 .banner{
   width: 100%;
   height: 3rem;
-  background-color: white;
+  background-color: #b9e9f5;
   margin-bottom: 0.7rem;
 }
 .text-banner{
@@ -29,17 +38,22 @@ header{
   text-align: left;
   position: relative;
   top: 1rem;
-  left: 10%;
 }
 .music{
   position: relative;
-  left:45%;
+  top: -18px;
+  left:40%;
+  width: 3rem;
+  height: 3rem;
+  background:url(images/voting_11.png) no-repeat;
+  background-size: 3rem;
+  border: none;
 }
 .text{
-  /* height: 2rem; */
   position: relative;
   text-align: left;
   padding-left: 20%;
+  color: white;
 }
 main{
   padding-top: 9rem;
@@ -48,32 +62,32 @@ main{
   width: 100%;
 }
 .block{
-  width: 15%;
-  height: 15vw;
-  margin: 0 0 3rem 15%;
+  width: 20%;
+  height: 20vw;
+  margin: 0 0 3rem 10%;
   float: left;
 }
 .cube{
   width: 100%;
-  height: 15vw;
+  height: 20vw;
   border: 4px solid white;
 }
 .title{
   height: 70%;
   background-color: #f5c97b;
-  line-height: 10.5vw;
+  line-height: 14vw;
   text-align: center;
 }
 .number{
   height: 30%;
   background-color: #83b09a;
-  line-height: 4.5vw;
+  line-height: 6vw;
   text-align: center;
 }
 
 
 .hidden{
-  display: none;
+  /* display: none; */
   position: relative;
   top: 0.5rem;
 }
@@ -106,4 +120,32 @@ a{
   height: 10px;
   display: block;
   background-color: black;
+}
+span{
+  background: url("images/css_sprites.png") no-repeat;
+}
+
+.hidden1{
+  width: 20%;
+  height: 4vw;
+  background: url("images/voting_15.png") no-repeat;
+  background-size: 100%;
+}
+.hidden2{
+  width: 20%;
+  height: 4vw;
+  background: url("images/voting_17.png") no-repeat;
+  background-size: 100%;
+}
+.hidden3{
+  width: 20%;
+  height: 4vw;
+  background: url("images/voting_19.png") no-repeat;
+  background-size: 100%;
+}
+.hidden4{
+  width: 20%;
+  height: 4vw;
+  background: url("images/voting_21.png") no-repeat;
+  background-size: 100%;
 }

@@ -1,15 +1,11 @@
 body{
   margin: 0;
   background-color: #f0f0f0;
+  overflow: hidden;
 }
 header{
   background-color: #29bde0;
   height: 4rem;
-}
-.topbtn{
-  position: relative;
-  top: 2rem;
-  left: 0.7rem;
 }
 .lastgame{
   border: 1px solid #e8e8e8;
@@ -25,11 +21,6 @@ header{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-}
-.next{
-  position: absolute;
-  top: 6rem;
-  right:15%;
 }
 .gameselect{
   background-color: white;
@@ -57,11 +48,6 @@ header{
   text-align: center;
   margin-top: 1rem;
 }
-.nextmode{
-  position:relative;
-  top: -13rem;
-  left: 90%;
-}
 .dot{
   width: 10px;
   height: 10px;
@@ -88,4 +74,39 @@ header{
 .organe{
   color: #fcca72;
   font-size: 1.5rem;
+}
+a{
+  position: fixed;
+  bottom: 0;
+}
+
+span{
+  display: block;
+}
+/* img */
+.topbtn{
+  width: 2rem;
+  height: 2rem;
+  background: url("images/index_03.png") no-repeat;
+  background-size: 2rem;
+  margin: 1.7rem 0 0 1rem;
+  float: left;
+}
+.next{
+  width: 2rem;
+  height: 2rem;
+  background: url("images/index_07.png") no-repeat;
+  background-size: 1rem;
+  position: absolute;
+  top: 6rem;
+  right:15%;
+}
+.nextmode{
+  width: 2rem;
+  height: 2rem;
+  background: url("images/index_11.png") no-repeat;
+  background-size: 1rem;
+  position:relative;
+  top: -13rem;
+  left: 95%;
 }

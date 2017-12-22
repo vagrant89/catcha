@@ -23,12 +23,11 @@ header{
   float: right;
   background: url(images/result_05.png) no-repeat;
   background-size: 2rem;
-  /* display: inline-block; */
+
 }
 .text-header{
   color: white;
-  /* height: 3rem; */
-  /* line-height: 3rem; */
+  margin-top: 0.5rem;
 }
 main{
   padding-top: 4rem;
@@ -84,7 +83,7 @@ footer{
 }
 .share{
   color: white;
-  background-color: #f66f6f;
+  background-color: #fbb435;
   width: 30%;
   height: 3rem;
   margin: 0.5rem 14% 0.5rem 5%;
