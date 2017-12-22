@@ -35,13 +35,21 @@ main{
 span{
   display: block;
 }
+img{
+  width: 100%;
+  max-width: 200px;
+}
 .icon{
   width:40%;
-  height:25vw;
-  background-image: url(images/result_10.png);
+  height: 25vw;
+  /* max-width: 210px; */
+  max-height: 8rem;
+  /* max-height: 136px; */
+  /* background-image: url(images/result_10.png); */
   background-size:100%;
   background-repeat: no-repeat;
   margin:0rem 30%;
+  text-align: center;
 }
 .result{
   padding: 0.5rem 10%;

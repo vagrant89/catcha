@@ -68,8 +68,8 @@ main{
   float: left;
 }
 .cube{
-  width: 100%;
-  height: 20vw;
+  /* width: 100%;
+  height: 20vw; */
   border: 4px solid white;
 }
 .title{
@@ -87,13 +87,16 @@ main{
 
 
 .hidden{
-  /* display: none; */
-  position: relative;
-  top: 0.5rem;
+  display: none;
+  /* position: relative;
+  top: 0.5rem; */
 }
 
 .block:hover .hidden{
-  display: inline-block;
+  /* display: inline-block; */
+  display: block;
+  float: left;
+  margin:0.5rem 2.5%;
 }
 footer{
   position: fixed;
