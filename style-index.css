@@ -75,10 +75,10 @@ header{
   color: #fcca72;
   font-size: 1.5rem;
 }
-a{
+/* a{
   position: fixed;
   bottom: 0;
-}
+} */
 
 span{
   display: block;
@@ -109,4 +109,7 @@ span{
   position:relative;
   top: -13rem;
   left: 95%;
+}
+a{
+  text-decoration: none;
 }

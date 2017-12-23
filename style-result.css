@@ -30,7 +30,8 @@ header{
   margin-top: 0.5rem;
 }
 main{
-  padding-top: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 span{
   display: block;
@@ -60,14 +61,17 @@ img{
   margin: 0;
   border-bottom: 1px solid #f6f6f6;
 }
-p{
+.day{
+  margin: 0;
+}
+p:not(.day){
   margin: 0;
   line-height: 2rem;
-  display: inline-block;
   color: #bdbdbd;
 }
 .time{
   position: relative;
+  top: -1rem;
   float: right;
   color: #dedede;
 }
@@ -101,7 +105,7 @@ footer{
   float: right;
 }
 .orange{
-  color: #ffc865;
+  color: #ffc865 !important;
   font-weight: bold;
 }
 table{
